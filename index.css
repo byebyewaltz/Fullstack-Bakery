@@ -1,0 +1,25 @@
+main{ display: flex; 
+justify-content: center;
+align-items: center;
+}
+h1{
+    display: flex;
+
+justify-content: center;}
+ul{
+    background-color: red; color: white;
+}
+.testimonial {
+    background-color: antiquewhite;
+}
+    .brand {display: flex; justify-content: left;}
+
+nav {display: flex; align-items: center;}
+header {display: flex; justify-content: space-between; align-items: center;}
+
+.topnav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1px;
+}

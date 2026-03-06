@@ -11,9 +11,10 @@ h1{
     justify-content: center;
 }
 ul{
-    background-color: white; 
+    background-color: rgb(241, 235, 229); 
     font: black;
     line-height: 4;
+    width: 100px;
 }
 .testimonial {
     background-color: antiquewhite;
@@ -25,7 +26,7 @@ ul{
     display: flex;
     justify-content: left;
     font-style: italic, bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: red;
     font-size: 40px;
     
@@ -67,11 +68,18 @@ header {
     font-size:16px;
     text-align:left;
 }
+a:link {
+    color: red;
+}
+a:visited {
+    color: rgb(141, 29, 1);
+}
 footer{
     display:flex;
     justify-content:center;
     align-items:center;
     background:#333;
     color:white;
+    height: 50px;
     gap:20px;
 }

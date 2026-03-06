@@ -1,25 +1,63 @@
 main{ display: flex; 
 justify-content: center;
 align-items: center;
+border: 2px dashed black;
 }
 h1{
     display: flex;
-
-justify-content: center;}
+    justify-content: center;}
 ul{
     background-color: red; color: white;
 }
 .testimonial {
     background-color: antiquewhite;
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
 }
-    .brand {display: flex; justify-content: left;}
-
-nav {display: flex; align-items: center;}
-header {display: flex; justify-content: space-between; align-items: center;}
-
+.brand {
+    display: flex;
+    justify-content: left;
+    font-style: italic;
+    color: red;
+    font-size: 30px;
+}
+nav {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
 .topnav {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
-    gap: 1px;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    width:180px;
+    gap:12px;
+}
+.sidebar button{
+    background:#b5332c;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    font-size:16px;
+    text-align:left;
+    cursor:pointer;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#333;
+    color:white;
+    padding:20px;
 }

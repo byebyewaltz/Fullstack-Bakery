@@ -71,9 +71,6 @@ header {
 a:link {
     color: red;
 }
-a:visited {
-    color: rgb(141, 29, 1);
-}
 footer{
     display:flex;
     justify-content:center;
